@@ -1,0 +1,87 @@
+
+header {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 20px;
+  float: left;
+}
+
+nav {
+  background-color: rgb(50,50,50);
+  width: 103%;
+  padding: 10px;
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  color: white;
+  padding: 10px;
+}
+
+section img {
+  width: 100%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+section h2 {
+  position: relative;
+  left: 6%;
+  font-weight: bold;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+section p {
+  position: relative;
+  left: 6%;
+  margin-right: 8%;
+}
+
+aside h6 {
+  font-weight:bold;
+}
+
+aside img {
+  width: 100%;
+  padding-top: 3%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 12vh;
+  background-color: grey;
+}
+
+.left {
+  position: relative;
+  float: left;
+  width: 67%;
+  padding-top: 3%;
+  padding-bottom:10vh
+}
+
+.right {
+  position: relative;
+  float: right;
+  width: 27%;
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-bottom:10vh
+}
+
+.side {
+  position: relative;
+  display: inline-block;
+  min-height: 33%;
+  padding: 2%;
+}
+
+#login {
+  float: right;
+  color: white;
+}
